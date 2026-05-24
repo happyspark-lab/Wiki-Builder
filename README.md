@@ -1,18 +1,11 @@
 # wiki-builder 分享版
 
-这个目录是从本地 `wiki-builder` 技能中抽出的**可分享脱敏副本**。
+这个目录是从本地 `wiki-builder` 技能中抽出的**可分享副本**。
 
 ## 包含内容
 
 - `SKILL.md`：仅保留通用的 wiki 搭建、升级、ingest、lint 与多 wiki 导航规则
 
-## 已做的脱敏处理
+wiki-builder
+description: 为项目、角色或学习线搭建、升级和治理工作型 wiki。适用于新建 wiki、升级旧 wiki、wiki ingest、wiki lint、多 wiki 入口设计。默认采用 `CLAUDE.md + raw/ + notes/ + outputs/ + state/ + wiki/` 的工作型 wiki 骨架，并通过 `wiki_map.md` 处理多个 wiki 并存时的总导航。
 
-- 移除了个人名、项目名、私有业务名
-- 移除了本地工作区语境中的专有示例
-- 保留了可直接复用的 wiki 结构、分层职责与升级方法
-
-## 说明
-
-- 该目录**不会影响**你当前正在使用的原始 `wiki-builder` skill
-- 如果要分享给他人，直接转发本目录或压缩包即可
